@@ -15,7 +15,7 @@ From ProfolioProject..CovidDeaths
 order by 1,2
 
 -- Looking at total cases vs total deaths at Canada
--- Shows likelihood of dying if you contract covid in your country
+-- Shows likelihood of dying if you contact covid in your country
 
 Select Location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 From ProfolioProject..CovidDeaths
